@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../why/style.css" />
+  </head>
+  <body class="bg-dark">
+    <header>
+      <!--Navbar-->
+      <nav class="navbar-dark">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../why/whyVegetarian.html" target ="_blank">Why Vegetarian?</a></li>
+          <!--
+          <li><a href="../main/plans.html" target ="_blank">Begin Your Journey</a></li>
+        -->
+          <li><a href="../main/meals.html" target ="_blank">7 Day Meal Plan</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="../local/local.html"target ="_blank">Save For Later</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Heading Contact us-->
+    <div class="bg-dark">
+      <h1 class="text-white text-center">Contact Us</h1>
+    </div>
+
+    <main class="foodie">
+      <img
+        src="foodies.jpg"
+        alt="picture written food is bae"
+        class="footer p-0"
+        id ="food"
+      />
+
+      <img
+        src="balance.jpg"
+        alt="picture written balance your life"
+        class="footer p-0"
+        id ="balance"
+      />
+
+    </main>
+    <button onclick ="saveImages(this)">Save</button>
+    <!--Contact Details-->
+    <footer class="balance bg-dark text-white">
+      <h3 class="text-center">Enter your details</h3>
+<form >
+      <p><label for="name" class="col-2 col-form-label">First Name:</label></p>
+      <input name ="name" type="text" class="form-control p-2" id="name" />
+
+      <p><label for="email" class="col-sm-2 col-form-label">Email:</label></p>
+      <input name ="email" type="email" class="form-control p-3" id="email" />
+
+      <p>
+        <label for="message" class="col-sm-2 col-form-label">Message:</label>
+      </p>
+      <textarea
+        name="message"
+        class="form-control"
+        tabindex="4"
+        placeholder="Write your details"
+        required
+        id="message"
+      ></textarea>
+      
+      
+      <p>Would you like to subscribe to our newsletter?</p>
+      <input class="form-check-input" type="radio" name="yes" id="yes" />
+      <label class="form-check-label" for="yes"> Yes </label>
+
+      <input class="form-check-input" type="radio" name="no" id="no" />
+      <label class="form-check-label" for="no"> No </label>
+    <button type ="submit">Submit</button>
+    
+      
+    </form>
+
+      <br />
+      <br />
+      
+      <!--
+      <input type="submit" value="Submit" class="d-flex" />
+      
+    -->
+    </footer>
+  </body>
+  <script src ="contact.js"></script>
+</html>

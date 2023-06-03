@@ -1,0 +1,202 @@
+/*
+.container{
+    
+    height: 100%;
+    width:auto;
+    
+}
+*/
+
+img {
+  max-width: 100%;
+}
+
+
+
+/*
+#coffee{
+    
+    background-image: url("lemon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+*/
+
+header nav {
+  background-color: black;
+  background-size: cover;
+  padding-bottom: 3px;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+header nav ul {
+  list-style: none;
+
+  display: flex;
+
+  justify-content: space-around;
+}
+
+div {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list1 {
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  font-size: 15px;
+  width: 150px;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  background: none;
+  border-radius: 30px;
+}
+
+.text {
+  color: white;
+  display: flex;
+}
+
+main {
+  background-color: antiquewhite;
+  margin-bottom: 25px;
+}
+
+@font-face {
+  font-family: "cursive";
+  src: url(Poppins-Italic.ttf);
+}
+
+@font-face {
+  font-family: "sive";
+  src: url(Poppins-Black.ttf);
+}
+
+.container {
+  font-size: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+}
+
+
+p {
+  padding-top: 20px;
+  margin: 25px;
+  font-family: "cursive";
+}
+
+h1 {
+  font-family: "sive";
+  text-align: center;
+}
+
+h2 {
+  font-family: "sive";
+}
+
+img {
+  max-width: 50px;
+  float: right;
+  padding-right: 25px;
+}
+
+.footer {
+  max-width: 50%;
+}
+/*
+.right{
+    max-width: 50%;
+    height: 50%;
+    float: right;
+}
+*/
+
+.balance {
+  height: 50%;
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+div .container{
+  background-color: white;
+}
+
+.container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.like-button .heart-icon{
+  height: 100px;
+  width: 100px;
+  background-image: url("../image/heart.png");
+  background-position:left;
+  cursor:pointer;
+  position: absolute;
+}
+
+.like-button .heart-bg{
+  background: rgba(255, 192, 200, 0);
+  border-radius: 50%;
+  height: 60px;
+  width:60px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  transition: all 100ms ease;
+}
+
+
+.like-button .heart-bg:hover{
+  background: rgba(255, 192, 200, 0.7) ;
+}
+
+.like-button .heart-icon.liked{
+  animation: like-anim 0.7s steps(28) forwards;
+}
+
+@keyframes like-anim{
+  to{
+    background-position: right;
+  }
+}
+
+
+.like-button{
+  display:flex;
+  align-items: center;
+}
+
+.like-button .amount{
+  font-size:20px;
+  font-family:sans-serif;
+  color: gray;
+  font-weight: 900;
+  margin-left: 100px;
+}

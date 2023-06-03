@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.data{
+  color:black;
+}
+
+@keyframes fade-inout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fade-in-fade-out {
+  animation: fade-inout 5s alternate;
+  font-size: 2.5em;
+  color: black;
+}
+
+#landing {
+  background-image: url("./image/saladb.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn {
+  display: inline;
+  font-size: 15px;
+  width: 150px;
+  height: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  background: none;
+  border-radius: 30px;
+
+}
+
+header nav {
+  background-color: black;
+  background-size: cover;
+  padding-bottom: 3px;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+header nav ul {
+  list-style: none;
+
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.list {
+  display: flex;
+  font-size: large;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin-top: 30%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: green;
+}
+
+
+img {
+  max-width: 200px;
+  float: right;
+  border-radius: 10px;
+  padding-top: 5px;
+  margin:5px;
+}
+/*
+
+div {
+  background-color: lightgray;
+}
+*/
+
+.form-control{
+  width: 98%;
+}
+
+#comments{
+  background-color: white;
+}
+
+#bu{
+  color:black;
+}
+
+
+.fa{
+  font-size:24px;
+  disply:block;
+  
+  cursor: pointer;
+  
+}
+
+.fa{
+color: goldenrod;
+}
+
+.fa:hover{
+  color: yellow;
+  border: none;
+  
+  
+
+}
+
+.fa-heart{
+  font-size:24px;
+}
+
+.fa-heart:hover{
+  color:red;
+}
+
+
+.fa-heart .red{
+  float: right;
+}
+
+.red{
+  float: right;
+  
+}
+
+i{
+  padding: 20px;
+
+}
+
+.container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.like-button .heart-icon{
+  height: 100px;
+  width: 100px;
+  background-image: url("./image/heart.png");
+  background-position:left;
+  cursor:pointer;
+  position: absolute;
+}
+
+.like-button .heart-bg{
+  background: rgba(255, 192, 200, 0);
+  border-radius: 50%;
+  height: 60px;
+  width:60px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  transition: all 100ms ease;
+}
+
+
+.like-button .heart-bg:hover{
+  background: rgba(255, 192, 200, 0.7) ;
+}
+
+.like-button .heart-icon.liked{
+  animation: like-anim 0.7s steps(28) forwards;
+}
+
+@keyframes like-anim{
+  to{
+    background-position: right;
+  }
+}
+
+
+.like-button{
+  display:flex;
+  align-items: center;
+}
+
+.like-button .amount{
+  font-size:20px;
+  font-family:sans-serif;
+  color: gray;
+  font-weight: 900;
+  margin-left: 100px;
+}
+
+.fa-comment-o{
+color:black;
+}
+
+#bu{
+  color: goldenrod;
+}
+
+
+h3{
+  font-style: italic;
+}
+
