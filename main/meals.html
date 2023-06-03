@@ -37,7 +37,7 @@
          </div>
          <section class ="pt-5 ">
           <h2 class ="text-center p-3">Lets Begin!</h2>
-          
+       <!-- clickable heart icon to display amount of likes -->   
           <div class ="container">
     <div class = "like-button">
       <div class ="heart-bg">
@@ -48,12 +48,13 @@
 
     </div>
   </div>
+<!--First Day-->
   <div class ="monday-section">
             <table class="table table-striped ">
                       <thead>
                   <tr class="border">
                     <th scope="col"></th>
-                    <!--First Day-->
+                    
                     <th scope="col" class ="text-center fs-5" id = "one">Monday </th>
 
                     
@@ -94,10 +95,7 @@
               <div class ="col-12 p-4">
 
    <aside class = "red text-center"> 
-<!--
-  <i class="fa fa-heart " id = "read"></i>
 
--->
 
   <i class="fa fa-star-o" id = "save"></i>
 <img src ="./images/bread.jpg" alt ="picture of bread" id = "image">
@@ -117,20 +115,20 @@ So avoid it as much as possible</p>
         <p>Quinoa Contains antioxidant and anti-inflammatory plant compounds, high in vitamins and minerals</p>
               </div >
             </div>
-            <!--
-            <i onclick ="saveSection()"class="fa fa-star-o" ></i>
-          -->
+            
+<!-- Save for later button/Monday-->
             <button onclick ="saveSection(this)" class ="btn-sm btn-dark ">Save</button>
               <br>
 
         
 <br>
+<!--Second Day-->
 <div class ="tuesday-section">
               <table class="table table-striped pt-5">
                 <thead>
                   <tr>
                     <th scope="col"></th>
-                    <!--Second Day-->
+                    
                     <th scope="col" class ="text-center fs-5">Tuesday</th>
                     
                   </tr>
@@ -170,17 +168,17 @@ So avoid it as much as possible</p>
 
               </div>
             </div>
-            <!--
-              <i onclick ="saveTuesday()"class="fa fa-star-o" ></i>
-            -->
+            
+<!-- Save for later button/Tuesday-->
               <button onclick ="saveTuesday(this)" class ="btn-sm btn-dark ">Save</button>
               <br>
+<!--Third Day-->
 <div class ="wednesday-section">
               <table class="table table-striped pt-5">
                 <thead>
                   <tr>
                     <th scope="col"></th>
-                    <!--Third Day-->
+                    
                     <th scope="col" class ="text-center fs-5">Wednesday</th>
                     
                   </tr>
@@ -219,17 +217,17 @@ So avoid it as much as possible</p>
                     A diet rich in beans can reduce your risk of several serious medical conditions and help your body to process calories more effectively</p>
               </div>
             </div>
-            <!--
-            <i onclick ="saveWednesday()"class="fa fa-star-o" ></i>
-          -->
+           
+<!-- Save for later button/Wednesday-->
             <button onclick ="saveWednesday(this)" class ="btn-sm btn-dark ">Save</button>
 <br>
+ <!--Fourth Day-->
 <div class ="thursday-section">
               <table class="table table-striped">
                 <thead>
                   <tr>
                     <th scope="col"></th>
-                    <!--Fourth Day-->
+                   
                     <th scope="col" class ="text-center fs-5">Thursday</th>
                     
                   </tr>
@@ -268,18 +266,18 @@ So avoid it as much as possible</p>
 </details>
               </div>
             </div>
-            <!--
-            <i onclick ="saveThursday()"class="fa fa-star-o" ></i>
-          -->
+            
+<!-- Save for later button/Thursday-->
             <button onclick ="saveThursday(this)" class ="btn-sm btn-dark ">Save</button>
             
 <br>
+<!--Fifth Day-->
 <div class ="friday-section">
               <table class="table table-striped">
                 <thead>
                   <tr>
                     <th scope="col"></th>
-                    <!--Fifth Day-->
+                    
                     <th scope="col" class ="text-center fs-5">Friday</th>
                     
                   </tr>
@@ -312,17 +310,17 @@ So avoid it as much as possible</p>
                 </tbody>
               </table>
             </div>
-            <!--
-            <i onclick ="saveFriday()"class="fa fa-star-o" ></i>
-          -->
+            
+<!-- Save for later button/Friday-->
             <button onclick ="saveFriday(this)" class ="btn-sm btn-dark ">Save</button>
 <br>
+<!--Sixth Day-->
 <div class ="saturday-section">
               <table class="table table-striped">
                 <thead>
                   <tr>
                     <th scope="col"></th>
-                    <!--Sixth Day-->
+                    
                     <th scope="col" class ="text-center fs-5">Saturday</th>
                     
                   </tr>
@@ -362,17 +360,17 @@ So avoid it as much as possible</p>
                 </details>
               </div>
             </div>
-            <!--
-            <i onclick ="saveSaturday()"class="fa fa-star-o" ></i>
-          -->
+            
+<!-- Save for later button/Saturday-->
             <button onclick ="saveSaturday(this)" class ="btn-sm btn-dark ">Save</button>
 <br>
+<!--Seventh Day-->
 <div class ="sunday-section">
               <table class="table table-striped">
                 <thead>
                   <tr>
                     <th scope="col"></th>
-                    <!--Seventh Day-->
+                    
                     <th scope="col" class ="text-center fs-5">Sunday</th>
                     
                   </tr>
@@ -408,14 +406,14 @@ So avoid it as much as possible</p>
               </table>
 
   </div>
-  <!--
-  <i onclick ="saveSunday()"class="fa fa-star-o" ></i>
--->
+  
+<!-- Save for later button/Sunday-->
   <button onclick ="saveSunday(this)" class ="btn-sm btn-dark ">Save</button>
              
          </section>
 <br>
 <br>
+<!-- A Form with radio button that will display if user liked article or not -->
          <form>
     <div class="form-check radio">
                 <input
@@ -434,16 +432,17 @@ So avoid it as much as possible</p>
 
   <h3 class ="text-center">Leave your comments</h3>
   <div>
+<!--  unclickable comment box icon -->
             <i class="fa fa-comment-o" style="font-size:36px"></i>
   </div>
-  <!--
-  <div class ="container p-2 m-2 text-center">
-  -->
+  
+<!-- A form that will intake user comments or reviews -->
   <form class ="text-center">
     <p><label for = "comment"></label></p>
   <textarea id = "comment-box" class = " col-sm-11 col-form-label m-3 p-2" rows="3" name = "comment"></textarea>
   
   <div class ="text-center" id ="comments">
+<!-- Submit button to submit reviews and comments -->
 <button id = "bu" class ="btn btn-dark">  Submit</button>
 
 </div>
